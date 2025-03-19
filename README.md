@@ -1,12 +1,46 @@
-# React + Vite
+## 🚀 Live Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 About the Project
 
-Currently, two official plugins are available:
+This project is a React-based UI that features a dynamic layout with images, text, and a clean, responsive design using Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project focuses on:
+✅ Dynamic – Changes are viewable without reloading the page.
+✅ Responsive UI – Works seamlessly on mobile, tablet, and desktop.
+✅ Optimized Performance – Uses modern best practices in React and Tailwind.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dynamic UI – Displays text, images, and styling based on props.
+Clean & Minimalist Design – Uses Tailwind CSS for styling.
+Fully Responsive – Works across different screen sizes.
+Reusable Components – Designed with modularity in mind.
+
+## 🛠️ Tech Stack
+
+Frontend: React, Tailwind CSS, Vite
+Testing: Vitest
+
+## ⚡ Getting Started
+
+To run this project locally, follow these steps.
+
+### Prerequisites
+
+Install Node.js and npm
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies
+3. Start the development server
+
+## 🧪 Testing
+
+To run unit tests, use the following command:
+npm run test
+
+## 📬 Contact
+
+🔗 GitHub: @Udokaineh
+🔗 Email: udokaineh04@gmail.com
