@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Banner from "./components/Banner";
-import Form from "./components/form";
 import aloeImage from "./assets/aloe.jpeg"
+import Form from "./components/Form"
 
 
 const App = () => {
