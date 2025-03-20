@@ -9,6 +9,7 @@ const Form = ({ setTitle, setBgColor, setDescription, setImage, setFont }) => {
         }
     };
 
+
     return (
         <div className="mt-8 flex flex-col items-center">
             <p className="text-center text-[16px] md:text-[18px] font-medium">Customize Your Banner</p>
@@ -39,11 +40,12 @@ const Form = ({ setTitle, setBgColor, setDescription, setImage, setFont }) => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-[16px]">
                     <div className="flex flex-col gap-[6px] shrink-0">
-                        <label htmlFor="bgColour" className="text-[14px]">Background Colour</label>
+                        <label htmlFor="bgColor" className="text-[14px]">Background Colour</label>
                         <select
                             id="bgColor"
                             name="bgColor"
                             className="border border-[#e3e3e3] rounded-[0.5rem] text-[14px] p-3 w-full" onChange={(e) => setBgColor(e.target.value)}>
+                            <option value="">Select</option>
                             <option value="bg-blue-500">Blue</option>
                             <option value="bg-green-600">Green</option>
                             <option value="bg-red-500">Red</option>
@@ -60,6 +62,7 @@ const Form = ({ setTitle, setBgColor, setDescription, setImage, setFont }) => {
                             id="font"
                             name="font"
                             className="border border-[#e3e3e3] rounded-[0.5rem] text-[14px] p-3 w-full" onChange={(e) => setFont(e.target.value)}>
+                            <option value="">Select</option>
                             <option value="font-sans">Sans Serif</option>
                             <option value="font-serif">Serif</option>
                             <option value="font-mono">Monospace</option>

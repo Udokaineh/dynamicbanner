@@ -3,6 +3,12 @@ import userEvent from "@testing-library/user-event";
 import App from "../App"
 
 
+
+beforeEach(() => {
+    localStorage.clear(); // Clear localStorage before each test
+});
+
+
 test("updates the banner title and description when the form changes", async () => {
     render(<App />);
 

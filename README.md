@@ -1,5 +1,8 @@
 ## 🚀 Live Demo
 
+Check out the live version of the project here:  
+🔗 [Live Demo](https://udoka-ineh-dynamicbanner.vercel.app/)
+
 ## 📖 About the Project
 
 This project is a React-based UI that features a dynamic layout with images, text, and a clean, responsive design using Tailwind CSS.
